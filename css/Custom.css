@@ -1,2 +1,61 @@
-Body{Color:--bs-green
+/* custom.css */
+
+body {
+    background-color: #fff5e6; /* Light orange background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Font color */
+}
+
+header {
+    background-color: #ff8c00; /* Dark orange background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    margin: 20px;
+    background-color: #ffb347; /* Lighter orange background */
+    padding: 10px;
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* White background for content */
+    border: 2px solid #ff8c00; /* Dark orange border */
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff8c00; /* Dark orange background */
+    color: white; /* White text */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+.anchor-link {
+    color: #ff8c00; /* Dark orange text */
+    text-decoration: none;
+}
+
+.anchor-link:hover {
+    text-decoration: underline;
 }
